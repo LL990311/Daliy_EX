@@ -13,7 +13,7 @@
  * 空间复杂度: O(1)
  */
 
-class Solution {
+class Leetcode42 {
     public static int trap(int[] height) {
         int leftmost = 0, rightmost = 0;
         int res = 0;
