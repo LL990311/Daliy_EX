@@ -30,7 +30,7 @@ class Leetcode42 {
         }
         return res;
     }
-
+    
     public static void main(String[] args) {
         int[] test = new int[] { 0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1 };
         int res = trap(test);
