@@ -39,7 +39,7 @@ class Leetcode_1636 {
         }
         return res;
     }
-
+    
     public static void main(String[] args) {
         int[] test = new int[] { -1, 1, -6, 4, 5, -6, 1, 4, 1 };
         int[] res = frequencySort(test);
