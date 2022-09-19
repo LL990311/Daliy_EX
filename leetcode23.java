@@ -59,7 +59,7 @@ public class leetcode23 {
         tail.next = (aPtr != null ? aPtr : bPtr);
         return head.next;
     }
-
+    
     public static void main(String[] args) {
         ListNode a = new ListNode(1); // 1 4 5
         ListNode dummy = a;
