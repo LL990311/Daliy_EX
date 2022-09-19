@@ -38,7 +38,7 @@ class leetcode672 {
         else
             return k == 1 ? 4 : k == 2 ? 7 : 8;
     }
-
+    
     public static void main(String[] args) {
         int res = flipLights(3, 1);
         System.out.println(res);
