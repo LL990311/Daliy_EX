@@ -18,13 +18,12 @@ class Leetcode42 {
         int res = 0;
         int left = 0, right = height.length - 1;
         while (left < right) {
-            leftmost = Math.max(height[left],leftmost);
-            rightmost = Math.max(height[right],rightmost);
+            leftmost = Math.max(height[left], leftmost);
+            rightmost = Math.max(height[right], rightmost);
             if (height[left] < height[right]) {
                 res += leftmost - height[left];
                 left++;
-            }
-            else {
+            } else {
                 res += rightmost - height[right];
                 right--;
             }
@@ -33,7 +32,7 @@ class Leetcode42 {
     }
 
     public static void main(String[] args) {
-        int[] test = new int[]{0,1,0,2,1,0,1,3,2,1,2,1};
+        int[] test = new int[] { 0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1 };
         int res = trap(test);
         System.out.println(res);
     }

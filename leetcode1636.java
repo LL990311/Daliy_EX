@@ -1,3 +1,4 @@
+
 /**
  * Sep 19 2022
  * Leetcode_1636
@@ -41,7 +42,7 @@ class Leetcode_1636 {
     }
 
     public static void main(String[] args) {
-        int[] test = new int[] {-1,1,-6,4,5,-6,1,4,1};
+        int[] test = new int[] { -1, 1, -6, 4, 5, -6, 1, 4, 1 };
         int[] res = frequencySort(test);
         for (int n : res) {
             System.out.print(n + " ");

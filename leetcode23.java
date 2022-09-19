@@ -77,12 +77,12 @@ public class leetcode23 {
         dummy = c;
         dummy.next = new ListNode(6);
 
-        ListNode[] test = new ListNode[]{a,b,c};
+        ListNode[] test = new ListNode[] { a, b, c };
         ListNode res = mergeKLists(test);
 
         while (res != null) {
             System.out.print(res.val + " ");
-            res = res.next; //1 1 2 3 4 4 5 6
+            res = res.next; // 1 1 2 3 4 4 5 6
         }
 
     }
