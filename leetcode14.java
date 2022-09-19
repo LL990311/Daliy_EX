@@ -31,7 +31,7 @@ public class leetcode14 {
         }
         return res;
     }
-
+    
     public static void main(String[] args) {
         String[] test = new String[] { "flower", "flow", "flight" };
         System.out.println(longestCommonPrefix(test)); // "fl"
