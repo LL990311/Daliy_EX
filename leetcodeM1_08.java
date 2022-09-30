@@ -1,4 +1,15 @@
-import java.rmi.MarshalException;
+/**
+ * Sep 30 2022
+ * Leetcod_M1_08
+ * Written by Java
+ */
+
+/**
+ * 编写一种算法，若M × N矩阵中某个元素为0，则将其所在的行与列清零。
+ * 标记数组
+ * 时间复杂度: O(mn)
+ * 空间复杂度: O(mn)
+ */
 
 public class leetcodeM1_08 {
 
