@@ -1,5 +1,5 @@
 /**
- * Oec 4 2022
+ * Oct 4 2022
  * Leetcode_921
  * Written by Java
  */
