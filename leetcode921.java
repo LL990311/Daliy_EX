@@ -32,7 +32,7 @@ public class leetcode921 {
         }
         return score + res;
     }
-
+    
     public static void main(String[] args) {
         String test = "())";
         int res = 0;
