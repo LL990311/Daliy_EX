@@ -27,7 +27,7 @@ public class leetcode1790 {
         if (a == -1 || b == -1) return false;
         return s1.charAt(a) == s2.charAt(b) && s1.charAt(b) == s2.charAt(a);
     }
-
+    
     public static void main(String[] args) {
         String s1 = "bank", s2 = "kanb";
         boolean res = areAlmostEqual(s1, s2); // true;
