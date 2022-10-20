@@ -46,6 +46,6 @@ func main() {
 	tsan := [6]int {1,0,0,0,1,1}
 	var res = countStudents(tstu[:], tsan[:])
 
-	fmt.Println(res) //3
+	fmt.Println(res)//3
 
 }
