@@ -19,7 +19,7 @@ package Java_version;
  * 叶子节点 是没有孩子的节点。
  */
 
-class Solution {
+class leetcode2331 {
 
     public class TreeNode {
         int val;
