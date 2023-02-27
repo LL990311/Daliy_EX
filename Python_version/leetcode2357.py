@@ -2,7 +2,7 @@
 /**
  * Feb 24 2023
  * leetcode_2357
- * Written by Java
+ * Written by Python
  */
 
 /**
