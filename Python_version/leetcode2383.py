@@ -2,7 +2,7 @@
 /**
  * Mar 13 2023
  * Leetcode_2383
- * Written by Java
+ * Written by Python
  * Author: LukeLong
  */
 
